@@ -14,5 +14,10 @@ public class ExemploConversao {
 
         //Exibir a soma
         JOptionPane.showMessageDialog(null, "A soma é " + (n1 + n2));
+
+        byte idade = 18;
+        short x = idade;
+        // byte y = x; não é possivel porque o short é maior q o byte
+
     }
 }
